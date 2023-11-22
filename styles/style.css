@@ -1,5 +1,36 @@
 /* styles.css */
 
+/* cart */
+.halamanCart{
+  padding: 5px;
+  padding-top: 35px;
+}
+
+.item {
+  display: flex;
+}
+
+.item img {
+  max-width: 100px; /* Adjust the width as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.deskripsi {
+  flex: 1;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 0px solid black; /* Add borders for better visibility, adjust as needed */
+}
+
+th, td {
+  padding: 8px;
+}
+
 /* Styling untuk navigasi */
 nav {
   position: fixed;
@@ -208,8 +239,8 @@ nav ul li a {
 
 /* Style for the recommendations section */
 #recommendations {
-  background-color: #f8f9fa; /* Light gray background */
-  padding: 40px 0;
+  background-color: #f8f9fa;  
+   padding: 40px 0;
 }
 
 .container {
@@ -247,3 +278,47 @@ nav ul li a {
   color: #007bff;
 }
 
+/*rating style*/
+
+/* .card { 
+  max-width: 33rem; 
+  background: #fff;
+  position: relative; 
+  justify-items: auto;
+  display: flex;
+  margin: 0 1rem; 
+  padding: 1rem; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  width: 300px;;
+  border-radius: 0.5rem; 
+  writing-mode: horizontal-tb;
+  display: flex;
+  flex-direction: row;
+}  */
+
+/* .card span{
+  margin-right: 10px;
+} */
+.star { 
+  font-size: 20px; 
+} 
+
+.one { 
+  color: rgb(255, 0, 0); 
+} 
+
+.two { 
+  color: rgb(255, 106, 0); 
+} 
+
+.three { 
+  color: rgb(251, 255, 120); 
+} 
+
+.four { 
+  color: rgb(255, 255, 0); 
+} 
+
+.five { 
+  color: rgb(24, 159, 14); 
+}
