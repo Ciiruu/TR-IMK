@@ -15,9 +15,10 @@
 
   <body>
     <!-- Navigation bar -->
+    <section>
     <nav>
       <div class="logo" py-5>
-        <img src="/images/logo.png" />
+        <img src="/image/logo.png" />
       </div>
       <ul>
         <li><a href="/index.html">Home</a></li>
@@ -38,47 +39,73 @@
       <!-- User profile -->
       <a href="/profile.html">
         <div class="profile">
-          <img src="/images/user.png" />
+          <img src="/image/user.png" />
           <p>Jane Doe</p>
         </div>
       </a>
 
       <div class="cart">
-        <img src="/images/chart.svg" />
+        <img src="/image/chart.svg" />
       </div>
 
       <!-- Notification icon -->
       <div class="notifications">
-        <img src="/images/bell.png" />
+        <img src="/image/bell.png" />
       </div>
     </nav>
+
+  </section>
+
+  <section class="profilUser">
     <div id="profile">
-      <img src="/images/user.png" />
+      <table>
+        <tr>
+          <th>
+            <img src="/image/user.png" />
+          </th>
+          <th>
+            <h2>Jane De</h2>
+            <p>@janedoe</p>
+          </th>
+        </tr>
 
-      <h2>Jane Doe</h2>
-      <p>@janedoe</p>
+      </table>
 
-      <div class="info">
-        <p>New York, 25 years old</p>
-        <p>Skin type: wet</p>
 
-        <div class="counts">
-          <div>
-            <span>50</span>
-            <p>Following</p>
-          </div>
+      <div id="info">
+        
+        <table>
+          <tr>
+            <th>50</th><td>Following</td> <td>|</td>
+            <th>150</th><td>Followers</td> <td>|</td>
+            <th>30</th><td>Post</td> <td>|</td>
+            <th>10</th><td>Reviews</td> 
+          </tr>
 
-          <div>
-            <span>100</span>
-            <p>Followers</p>
-          </div>
-
-          <div>
-            <span>30</span>
-            <p>Posts</p>
-          </div>
+        </table>
+        <!-- <div class="info">
+          <p>New York, 25 years old</p>
+          <p>Skin type: Oily</p>
+  
+          <div class="counts">
+            <div>
+              <span>50</span>
+              <p>Following</p>
+            </div>
+  
+            <div>
+              <span>100</span>
+              <p>Followers</p>
+            </div>
+  
+            <div>
+              <span>30</span>
+              <p>Posts</p>
+            </div>
+          </div> -->
         </div>
       </div>
+      
 
       <h3>Reviews</h3>
 
@@ -94,5 +121,7 @@
 
       <button>Edit Profile</button>
     </div>
+  </section>
+    
   </body>
 </html>
