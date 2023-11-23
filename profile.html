@@ -16,112 +16,84 @@
   <body>
     <!-- Navigation bar -->
     <section>
-    <nav>
-      <div class="logo" py-5>
-        <img src="/image/logo.png" />
-      </div>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">Products</a></li>
-      </ul>
+      <nav>
+        <div class="logo" py-5>
+          <img src="/images/logo.png" />
+        </div>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
 
-      <!-- Search bar -->
-      <div class="containeer">
-        <div class="search_warp search_warp_1">
-          <div class="search_box">
-            <input type="text" class="input" placeholder="Search..." />
-            <div class="btn btn_common"></div>
+        <!-- Search bar -->
+        <div class="containeer">
+          <div class="search_warp search_warp_1">
+            <div class="search_box">
+              <input type="text" class="input" placeholder="Search..." />
+              <div class="btn btn_common"></div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- User profile -->
-      <a href="/profile.html">
-        <div class="profile">
-          <img src="/image/user.png" />
-          <p>Jane Doe</p>
+        <!-- User profile -->
+        <a href="/profile.html">
+          <div class="profile">
+            <img src="/images/user.png" />
+            <p>Jane Doe</p>
+          </div>
+        </a>
+
+        <a href="cart.html">
+          <div class="cart">
+            <img src="/images/chart.svg" />
+          </div>
+        </a>
+
+        <!-- Notification icon -->
+        <div class="notifications">
+          <img src="/images/bell.png" />
         </div>
-      </a>
+      </nav>
+    </section>
 
-      <div class="cart">
-        <img src="/image/chart.svg" />
-      </div>
-
-      <!-- Notification icon -->
-      <div class="notifications">
-        <img src="/image/bell.png" />
-      </div>
-    </nav>
-
-  </section>
-
-  <section class="profilUser">
-    <div id="profile">
-      <table>
-        <tr>
-          <th>
-            <img src="/image/user.png" />
-          </th>
-          <th>
-            <h2>Jane De</h2>
-            <p>@janedoe</p>
-          </th>
-        </tr>
-
-      </table>
-
-
-      <div id="info">
-        
+    <section class="profilUser">
+      <div id="user">
         <table>
           <tr>
-            <th>50</th><td>Following</td> <td>|</td>
-            <th>150</th><td>Followers</td> <td>|</td>
-            <th>30</th><td>Post</td> <td>|</td>
-            <th>10</th><td>Reviews</td> 
-          </tr>
+            <th>
+              <img src="/images/user.png" />
+            </th>
 
+            <th>
+              <div>
+                <h2>Jane De</h2>
+                <p>@janedoe</p>
+              </div>
+
+              <button>Edit Profile</button>
+            </th>
+          </tr>
         </table>
-        <!-- <div class="info">
-          <p>New York, 25 years old</p>
-          <p>Skin type: Oily</p>
-  
-          <div class="counts">
-            <div>
-              <span>50</span>
-              <p>Following</p>
-            </div>
-  
-            <div>
-              <span>100</span>
-              <p>Followers</p>
-            </div>
-  
-            <div>
-              <span>30</span>
-              <p>Posts</p>
-            </div>
-          </div> -->
+
+        <div id="info">
+          <table>
+            <tr>
+              <th>50</th>
+              <td>Following</td>
+              <td>|</td>
+              <th>150</th>
+              <td>Followers</td>
+              <td>|</td>
+              <th>30</th>
+              <td>Post</td>
+              <td>|</td>
+              <th>10</th>
+              <td>Reviews</td>
+            </tr>
+          </table>
         </div>
       </div>
-      
-
-      <h3>Reviews</h3>
-
-      <div class="review-list">
-        <!-- List review -->
-      </div>
-
-      <h3>Favorite Products</h3>
-
-      <div class="product-list">
-        <!-- List produk -->
-      </div>
-
-      <button>Edit Profile</button>
-    </div>
-  </section>
-    
+    </section>
   </body>
 </html>
