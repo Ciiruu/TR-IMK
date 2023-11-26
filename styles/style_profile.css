@@ -196,3 +196,58 @@ td {
   font-size: 20px;
   padding: 10px;
 }
+/* menu tabs */
+.profile-menu ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+}
+
+.profile-menu li {
+  margin-right: 50px;
+}
+
+.profile-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.profile-menu a:hover {
+  color: #e5166d;
+}
+/* card kosong */
+.profile-content .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+/* footer */
+footer {
+  background: #f5f5f5;
+  padding: 20px;
+  height: 200px;
+}
+.footer-content {
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+.footer-section p {
+  margin: 10px 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.footer-section {
+  margin-right: 30px;
+}
+
+.footer-section:last-child {
+  margin-right: 0;
+}

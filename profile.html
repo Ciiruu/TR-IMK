@@ -58,7 +58,7 @@
     </section>
 
     <section class="profilUser">
-      <div id="user">
+      <div id="user" style="margin: 0 auto; width: fit-content">
         <table>
           <tr>
             <th>
@@ -71,12 +71,21 @@
                 <p>@janedoe</p>
               </div>
 
-              <button>Edit Profile</button>
+              <button
+                style="
+                  background-color: #ffff;
+                  border-color: #e5166d;
+                  color: #e5166d;
+                  border-radius: 5px;
+                "
+              >
+                Edit Profile
+              </button>
             </th>
           </tr>
         </table>
 
-        <div id="info">
+        <div id="info" style="margin: 0 auto; width: fit-content">
           <table>
             <tr>
               <th>50</th>
@@ -93,7 +102,53 @@
             </tr>
           </table>
         </div>
+        <div class="profile-menu">
+          <ul>
+            <li><a href="#">Posts</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Topics</a></li>
+            <li><a href="#">Talk</a></li>
+          </ul>
+        </div>
+        <div class="profile-content">
+
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="img/empty.png" width="100">
+              <p>No posts added yet</p> 
+            </div>
+          </div>
+          
+          <div class="card" style="display: none">
+             <!-- Konten card lainnya -->
+          </div>
       </div>
     </section>
+    <footer>
+
+      <div class="footer-content">
+    
+        <div class="footer-section">
+          <p>About Us</p>
+          <p>Feedback</p>
+          <p>Media Kit</p>
+        </div>
+    
+        <div class="footer-section">
+          <p>Terms & Conditions</p> 
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer-section">
+          <p>Awards</p>
+          <p>Help</p> 
+        </div>
+    
+      </div>
+      
+      <div class="footer-bottom">
+        &copy; 2023 Beauty Center  
+      </div>
+    
+    </footer>
   </body>
 </html>
