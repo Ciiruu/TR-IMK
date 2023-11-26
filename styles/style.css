@@ -322,3 +322,31 @@ nav ul li a {
 .five { 
   color: rgb(24, 159, 14); 
 }
+/* footer */
+footer {
+  background: #f5f5f5;
+  padding: 20px;
+  height: 200px;
+}
+.footer-content {
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+.footer-section p {
+  margin: 10px 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.footer-section {
+  margin-right: 30px;
+}
+
+.footer-section:last-child {
+  margin-right: 0;
+}
