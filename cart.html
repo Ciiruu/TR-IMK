@@ -22,7 +22,7 @@
         <ul>
           <li><a href="/index.html">Home</a></li>
           <li><a href="#">Categories</a></li>
-          <li><a href="/product.html">Products</a></li>
+          <li><a href="#">Products</a></li>
         </ul>
 
         <!-- Search bar -->
@@ -34,7 +34,6 @@
             </div>
           </div>
         </div>
-
         <!-- User profile -->
         <a href="/profile.html">
           <div class="profile">
@@ -42,65 +41,43 @@
             <p>Jane Doe</p>
           </div>
         </a>
-
         <a href="cart.html">
           <div class="cart">
             <img src="/images/chart.svg" />
-          </div>
-        </a>
-
-        <!-- Notification icon -->
-        <div class="notifications">
-          <img src="/images/bell.png" />
-        </div>
-      </nav>
-    </section>
-    <div class="spacer"></div>
-
-    <div class="cart" py-5>
-      <br />
-      <div class="cart-item">
-        <div class="cart-item-image">
-          <img src="/images/product1.png" alt="Product Image" />
-        </div>
-        <div class="cart-item-info">
-          <h2>CARESO Body Lotion - Cloud Fantasy</h2>
-          <p>Price: Rp 88.000</p>
-          <div class="cart-item-quantity">
-            <p>Quantity:</p>
-            <button class="decrease-btn">-</button>
-            <input type="number" value="1" min="1" />
-            <button class="increase-btn">+</button>
-          </div>
-        </div>
-      </div>
-      <div class="cart-total">
-        <p>Total: Rp 88.000</p>
-      </div>
-      <div class="promotion">
-        <h2>Promotion</h2>
-        <label for="voucher">Voucher Code:</label>
-        <input type="text" id="voucher" placeholder="Input code here" />
-        <button>Browse all promotion</button>
-      </div>
-      <div class="order-summary">
-        <h2>Order Summary</h2>
-        <div class="summary-items">
-          <p>Items:</p>
-          <p>Subtotal:</p>
-          <p>Total:</p>
-        </div>
-        <div class="summary-amount">
-          <p>1</p>
-          <p>Rp 88.000</p>
+	@@ -96,34 +96,11 @@
           <p>Rp 88.000</p>
         </div>
         <button>CHECKOUT</button>
-        <a href="checkout.html">
-          <button>APPLY</button>
-        </a>
-        
+          <a href="checkout.html">
+        <button>APPLY</button>
+          </a>
       </div>
     </div>
+    <footer>
+
+      <div class="footer-content">
+
+        <div class="footer-section">
+          <p>About Us</p>
+          <p>Feedback</p>
+          <p>Media Kit</p>
+        </div>
+
+        <div class="footer-section">
+          <p>Terms & Conditions</p> 
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer-section">
+          <p>Awards</p>
+          <p>Help</p> 
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2023 Beauty Center  
+      </div>
+
+    </footer>
   </body>
 </html>
