@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/konfirmasi.css">
+    <link rel="stylesheet" href="/styles/checkout.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="checkoutLayout">
+
+        
+        <div class="returnCart">
+            <a href="/product.html">keep shopping</a>
+            <h1>List Product in Cart</h1>
+            <div class="list">
+
+                <div class="item">
+                    <img src="/images/product1.png">
+                    <div class="info">
+                        <div class="name">CARESO Body Lotion - Cloud Fantasy</div>
+                        <div class="price">$7.9/1 product</div>
+                    </div>
+                    <div class="quantity">1</div>
+                    <div class="returnPrice">$7.9</div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h1>Checkout</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+    
+                <div class="group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+    
+                <div class="group">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address">
+                </div>
+    
+                <div class="group">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="">Choose..</option>
+                        <option value="">Indonesia</option>
+                    </select>
+                </div>
+    
+                <div class="group">
+                    <label for="city">City</label>
+                    <select name="city" id="city">
+                        <option value="">Choose..</option>
+                        <option value="">Jawa</option>
+                        <option value="">Kalimantan</option>
+                        <option value="">Sumatera</option>
+                        <option value="">Sulawesi</option>
+                        <option value="">Papua</option>
+                    </select>
+                </div>
+            </div>
+            <div class="return">
+                <div class="row">
+                    <div>Total Quantity</div>
+                    <div class="totalQuantity">1</div>
+                </div>
+                <div class="row">
+                    <div>Total Price</div>
+                    <div class="totalPrice">$7.9</div>
+                </div>
+            </div>
+
+            <button class="buttonCheckout"  id="myBtn">CHECKOUT</button>
+  
+            <!-- The Modal -->
+             <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h4><b>Konfirmasi Metode Pembayaraan</b></h4>
+                <br><br>
+                <div class="group">
+                    <label for="city">Melalui</label>
+                    <br>
+                    <select name="city" id="city">
+                        <option value="">Choose..</option>
+                        <option value="">VISA</option>
+                        <option value="">BRI</option>
+                        <option value="">Bank JATENG</option>
+                        <option value="">BCA</option>
+                        <option value="">CIMB</option>
+                    </select>
+                    <br><br>
+                    <button id="myBtn" class="btn_konirmasi">Konfirmasi</button>
+
+                    
+                </div>
+            </div>
+    
+            </div>
+    
+           </div>
+            
+            
+            <!-- Trigger/Open The Modal -->
+            <!-- <button id="myBtn">Open Modal</button> -->
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>aadsfasf sf</p>
+            </div>
+
+            </div>
+
+            </div>
+    </div>
+</div>
+
+
+<script src="/script/konfirmasi.js"></script>
+
+</body>
+</html>
