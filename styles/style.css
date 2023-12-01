@@ -278,6 +278,31 @@ nav ul li a {
   color: #007bff;
 }
 
+
+/*Artikel style */
+
+article{
+  padding-top: 100px;
+  width: 75%;
+  text-align: justify;
+  margin: auto;
+}
+
+article img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+article p{
+  font-size: 28px;
+}
+
+article h1{
+  font-size: 50px;
+}
+
 /*rating style*/
 
 /* .card { 
@@ -322,6 +347,7 @@ nav ul li a {
 .five { 
   color: rgb(24, 159, 14); 
 }
+
 /* footer */
 footer {
   background: #f5f5f5;
